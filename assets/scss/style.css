@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -126,7 +131,4 @@ textarea {
     transition: none !important;
     scroll-behavior: auto !important;
   }
-}
-.header {
-  background-color: red;
 }/*# sourceMappingURL=style.css.map */

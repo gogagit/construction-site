@@ -1,0 +1,30 @@
+.container{
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+}
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+.section{
+    padding-block: 5rem 1rem;
+}
+.section-title,
+.section-subtitle{
+    text-align: center;
+}
+.section-title{
+    font-size: $h1-font-size;
+    font-weight: $font-bold;
+    margin-bottom: 1.5rem;
+}
+.section-subtitle{
+    display: block;
+    font-size: $normal-font-size;
+    font-weight: $font-semi-bold;
+    color: $second-color;
+    margin-bottom: .5rem;
+}
+.main{
+    overflow: hidden;
+}

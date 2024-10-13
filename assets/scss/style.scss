@@ -1,4 +1,2 @@
-@import 'variables';
-@import 'normalize';
-@import 'mixins';
-@import 'globals';
+@import 'base/base' , 'base/mixins', 'base/normalize', 'base/variables';
+@import 'layout/header' , 'layout/footer','layout/reuseble';
