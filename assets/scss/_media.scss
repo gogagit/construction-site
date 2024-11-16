@@ -1,0 +1,45 @@
+@media screen and (max-width: 1150px){
+    $big-font-size: 3.35rem;
+    $h1-font-size: 2.25rem;
+    $h2-font-size: 1.5rem;
+    $h3-font-size: 1.25rem;
+    $normal-font-size: 1rem;
+    $small-font-size: .875rem;
+
+    .nav-menu{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: $black-color;
+        width: 80%;
+        height: 100%;
+        padding: 7.5rem 3.5rem 0;
+        border-left: 2px solid $black-border;
+        transition: right .4s;
+    }
+   
+    .nav-toggle,
+    .nav-close{
+        display: block;
+        
+        right: 60px;
+        color: $white-color;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: color .4s;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        row-gap: 4rem;
+    }
+    .show-menu{
+        right: 0;
+    } 
+    .nav-close{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+}

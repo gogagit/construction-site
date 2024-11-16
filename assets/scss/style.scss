@@ -1,2 +1,5 @@
-@import 'base/base' , 'base/mixins', 'base/normalize', 'base/variables';
+@import 'base/variables' , 'base/mixins', 'base/normalize','base/base' ;
 @import 'layout/header' , 'layout/footer','layout/reuseble';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import 'media';
+@import 'sections/home','sections/about','sections/projects','sections/services';
